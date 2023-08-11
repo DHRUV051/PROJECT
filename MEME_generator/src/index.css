@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+ background-color: palegreen;
+}
+.mainclass{
+  width: 550px;
+  height: 550px;
+  margin-top: 50px; 
+  margin-left: 450px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+
+.header {
+  width: 550px;
+  height: 65px;
+  flex-shrink: 0;
+  background: linear-gradient(90deg, #672280 0%, #a626d3 100%);
+  display: flex;
+  flex-direction: row;
+}
+
+.header > img {
+  width: 31.306px;
+  height: 26.218px;
+  flex-shrink: 0;
+  margin-top: 19px;
+  margin-left: 20px;
+}
+
+.header > h3 {
+  width: 140.792px;
+  color: #fff;
+  font-family: Karla;
+  font-size: 20.748px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.075px;
+  margin-left: 4px;
+}
+
+.header > h4 {
+  width: 189px;
+  height: 14px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: right;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 26px;
+  margin-left: 130px;
+}
+
+main {
+  padding: 40px;
+}
+
+.form--input1 {
+  width: 230px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+}
+
+.form--input2 {
+  width: 230px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  margin-left: 7px;
+}
+
+.form--button {
+  width: 470px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-top: 15px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #711f8d 0%, #a818da 100%);
+  border: none;
+  cursor: pointer;
+}
+
+
+.meme--image{
+  width: 477px;
+height: 268px;
+flex-shrink: 0;
+padding-top: 36px;
+position: relative;
+border: black 1px solid;
+margin-top: 36px;
+
+}
+
+.meme--text-top{
+  margin-top: 5px;
+  color:#fff;
+font-family: Impact;
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+text-align: center;
+line-height: normal;
+width:  477px;
+height: 36px;
+position: absolute;
+top: 290px;
+text-shadow: black 0px 0px 4px;
+}
+
+.meme--text-bottom{
+  color:#fff;
+text-align: center;
+font-family: Impact;
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+width:  477px;
+height: 36px;
+position: absolute;
+bottom: 140px;
+text-shadow: black 0px 0px 4px;
+}
